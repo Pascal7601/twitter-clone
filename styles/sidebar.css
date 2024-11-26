@@ -1,0 +1,33 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    border-right: 1px solid gray;
+    align-items: center;
+    z-index: 101;
+}
+.sidebar-icons {
+    height: 50px;
+    border-radius: 25px;
+    padding: 8px 10px;
+}
+.sidebar-icons i:hover {
+    background-color: rgb(223, 220, 220);
+}
+.sidebar i ,.ellipsis{
+    font-size: 25px;
+    margin-left: 90px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.ellipsis {
+    padding-bottom: 19px;
+}
+.ellipsis:hover {
+    background-color: rgb(223, 220, 220);
+}
